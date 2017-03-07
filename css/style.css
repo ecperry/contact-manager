@@ -1,4 +1,44 @@
 
+body, li, h4, h5 {
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Vidaloka', serif;
+  font-size: 30px;
+  color: black;
+}
+a {
+  color: black;
+}
+.navbar{
+color: white;
+font: white;
+background-color: black;
+border-radius: none;
+}
+
+.navbar {
+color: white;
+font: white;
+background-color: black;
+border-radius: none;
+}
+.navbar-brand {
+  font-family: 'Vidaloka', serif;
+  font-size: 30pt;
+  color: black;
+}
+
 .container {
   padding-top: 20px;
 }
@@ -19,4 +59,30 @@
 textarea.form-control {
   resize: none;
   height: 150px;
+}
+
+.w {
+color:  #F567B2;
+}
+
+.slash{
+color:  #F40643;
+font-style: italic;
+}
+
+.it {
+color:#04DADA;
+
+}
+
+.all {
+font: white;
+}
+.new {
+
+}
+.border {
+border-top: solid;
+border-color: black;
+text-align: center;
 }
