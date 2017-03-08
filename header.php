@@ -15,6 +15,7 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Vidaloka" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -30,14 +31,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/index.php">Contact App</a>
+            <a class="navbar-brand" href="/index.php"><span class ="w">w</span><span class ="slash">| </span><span class ="it">it</span></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/index.php">All Contacts</a></li>
-              <li><a href="/new.php">New Contact</a></li>
+              <li class ="all"><a href="/index.php">All Contacts</a></li>
+              <li class = "new"><a href="/new.php">New Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

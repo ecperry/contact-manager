@@ -15,7 +15,7 @@
 <?php endif; ?>
 
 <h1>All Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
-<table class="table table-hover">
+<table class=" table table-responsive table-hover ">
   <thead>
     <th>ID</th>
     <th>First</th>

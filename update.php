@@ -1,14 +1,15 @@
 <?php
 include 'database.php';
-$stmt = $db->prepare('UPDATE contacts SET title = :title, description = :description, priority = :priority, completed = :completed WHERE id = :id');
-//$stmt->bindParam
+$stmt = $db->prepare('UPDATE contacts SET first = :first, last = :last, title = :title, address = :address, city = :city, state = :state, zip = :zip, phone = :phone, notes = :notes WHERE id = :id');
+
 $stmt->execute(array(
-  ':first' => array_key_exists('first', $_POST),
+  ':id' => $_POST['id'],
+  ':first' => $_POST['first'],
   ':last' => $_POST['last'],
   ':title' => $_POST['title'],
   ':address' => $_POST['address'],
   ':city' => $_POST['city'],
-  ':state' => array_key_exists('state', $_POST),
+  ':state' => $_POST['state'],
   ':zip' => $_POST['zip'],
   ':phone' => $_POST['phone'],
   ':notes' => $_POST['notes']

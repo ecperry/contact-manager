@@ -1,10 +1,12 @@
 <?php
 include 'database.php';
+
 $stmt = $db->prepare("INSERT INTO contacts
-(id, first, last, title, address, city, state, zip, phone, notes)
+(first, last, title, address, city, state, zip, phone, notes)
 VALUES
 (:first, :last, :title, :address, :city, :state, :zip, :phone, :notes)
 ");
+
 
 $stmt->execute(array(
   ':first' => $_POST['first'],
@@ -18,7 +20,8 @@ $stmt->execute(array(
   ':notes' => $_POST['notes']
 ));
 
-$id = $db-> lastInsertId();
- header('Location: http:localhost:8080/edit.php?id=' . $id . '&created=true');
+$id = $db->lastInsertId();
+
+ header('Location: edit.php?id=' . $id . '&created=true');
 
 ?>

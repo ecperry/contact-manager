@@ -6,6 +6,7 @@ body, li, h4, h5 {
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  color: #F567B2;
 }
 
 li {
@@ -84,5 +85,12 @@ font: white;
 .border {
 border-top: solid;
 border-color: black;
+margin-top: 10px;
 text-align: center;
+}
+
+.withit {
+  font-style: italic;
+  font-family: 'Vidaloka', serif;
+  color: #04DADA;
 }
