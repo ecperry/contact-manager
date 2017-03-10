@@ -1,6 +1,23 @@
+a{
+  color: black;
+  font-size: 11pt;
+}
 
 body, li, h4, h5 {
   font-family: 'Lato', sans-serif;
+}
+
+button :hover {
+  border-color: #F40643;
+  border-width: thick;
+  color: white;
+  background-color: #F40643;
+}
+
+h1, h2 {
+  font-family: 'Vidaloka', serif;
+  font-size: 30px;
+  color: black;
 }
 
 h3 {
@@ -13,70 +30,29 @@ li {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2 {
-  font-family: 'Vidaloka', serif;
-  font-size: 30px;
-  color: black;
-}
-a {
-  color: black;
-  font-size: 11pt;
-}
-.navbar{
-color: white;
-font: white;
-background-color: black;
-border-radius: none;
+td {
+width: 10%;
 }
 
-.navbar {
-color: white;
-font: white;
-background-color: black;
-border-radius: none;
-}
-.navbar-brand {
-  font-family: 'Vidaloka', serif;
-  font-size: 30pt;
-  color: black;
-}
-
-.container {
-  padding-top: 20px;
-}
-
-.btn-delete {
-  margin-top:12px;
-}
-
-@media screen and (min-width : 991px) {
-.btn-delete {
-  margin-top:32px;
-
-}
-}
-
-textarea.form-control {
-  resize: none;
-  height: 150px;
-}
-
-.w {
-color:  #F567B2;
-}
-
-.slash{
-color:  #F40643;
-font-style: italic;
-}
-
-.it {
-color:#04DADA;
-
+th {
+color: grey;
+font-weight: bold;
+font-size: 12pt;
 }
 
 .all {
 font: white;
+}
+
+.alert, .alert-success, .alert-info {
+  border-color: #FDDFF2;
+  border-width: thick;
+  color: #F567B2;
+  background-color: #FDDFF2;
+}
+
+.black{
+color: black;
 }
 
 .border {
@@ -91,15 +67,13 @@ text-decoration: none;
 color: #04DADA;
 }
 
-.black{
-color: black;
+.btn-danger .delete :hover {
+  color: white;
+  background-color: #F40643;
 }
 
-
-.withit {
-  font-style: italic;
-  font-family: 'Vidaloka', serif;
-  color: #04DADA;
+.btn-delete {
+  margin-top:12px;
 }
 
 .color1 {
@@ -129,10 +103,37 @@ color: black;
   font-family: 'Lato', sans-serif;
 }
 
+.container {
+  padding-top: 20px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.content {
+margin-left: 10%;
+margin-right: -33%;
+}
+
+.delete{
+border-color: #F40643;
+border-width: medium;
+background-color: white;
+color: #F40643;
+margin: 0px 0px 10px 0px;
+font-family: 'Lato', sans-serif;
+}
+
 .float {
 padding-left: 20%;
 width: 80%;
+}
 
+.it {
+color:#04DADA;
+}
+
+.Lato {
+  font-family: 'Lato', sans-serif;
 }
 
 .left {
@@ -140,38 +141,42 @@ width: 80%;
   padding: none;
   width: 100%;
 }
-.content {
-margin-left: 10%;
-margin-right: -33%;
+
+@media screen and (min-width : 991px) {
+.btn-delete {
+  margin-top:32px;
+
+}
 }
 
-.Lato {
-  font-family: 'Lato', sans-serif;
+.navbar {
+color: white;
+font: white;
+background-color: black;
+border-radius: none;
 }
-
-td {
-width: 10%;
-}
-
-.container {
-  width: 100%;
-  overflow: scroll;
-}
-
-a {
+.navbar-brand {
+  font-family: 'Vidaloka', serif;
+  font-size: 30pt;
   color: black;
 }
+
+.new {
+border-color: #04DADA;
+border-width: medium;
+background-color: #04DADA;
+color: white;
+margin: 15px 0px 35px 0px;
+}
+
+.slash{
+color:  #F40643;
+font-style: italic;
+}
+
 .table-hover :hover{
   color: grey;
   text-decoration: none;
-}
-.table-hover {
-}
-
-th {
-color: grey;
-font-weight: bold;
-font-size: 12pt;
 }
 
 .table tbody tr:hover td, .table tbody tr:hover th {
@@ -184,42 +189,18 @@ font-size: 12pt;
 .text-muted  {
   color: #04DADA;
 }
-a{
-color: black;
+
+textarea.form-control {
+  resize: none;
+  height: 150px;
 }
 
-.new {
-border-color: #04DADA;
-border-width: medium;
-background-color: #04DADA;
-color: white;
-margin: 15px 0px 35px 0px;
+.w {
+color:  #F567B2;
 }
 
-
-.delete{
-border-color: #F40643;
-border-width: medium;
-background-color: white;
-color: #F40643;
-margin: 0px 0px 10px 0px;
-font-family: 'Lato', sans-serif;
-}
-
-.btn-danger .delete :hover {
-  color: white;
-  background-color: #F40643;
-}
-
-button :hover {
-  border-color: #F40643;
-  border-width: thick;
-  color: white;
-  background-color: #F40643;
-}
-.alert, .alert-success, .alert-info {
-  border-color: #FDDFF2;
-  border-width: thick;
-  color: #F567B2;
-  background-color: #FDDFF2;
+.withit {
+  font-style: italic;
+  font-family: 'Vidaloka', serif;
+  color: #04DADA;
 }

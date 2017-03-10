@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Vidaloka" rel="stylesheet">
   </head>
+
   <body>
     <div class="container">
-
       <nav class="navbar navbar-default">
         <div class="container-fluid">
 
@@ -45,5 +45,4 @@
       </nav>
 
       <div class="row">
-
         <div class="col-lg-12 float">
