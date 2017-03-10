@@ -11,22 +11,31 @@
     </div>
     <div class="content">
       <div class="row">
-      <div class= "col-md-3 color1">
+      <div class= "col-sm-3 color1">
         <p>HEX #F40643</p>
       </div>
-      <div class= "col-md-3 color2">
+      <div class= "col-sm-3 color2">
         <p class="white">HEX #F567B2</p>
       </div>
-      <div class= "col-md-3 color3">
+      <div class= "col-sm-3 color3">
+        <p class="white">HEX #FDDFF2</p>
+      </div>
+      <div class= "col-sm-3 color4">
         <p class="white">HEX #04DADA</p>
       </div>
-      <div class= "col-md-3 color4">
+      <div class= "col-sm-3 color5">
+        <p class="white">HEX #CCFAFA</p>
+      </div>
+      <div class= "col-sm-3 color6">
+        <p class="white">HEX #FFFFFF</p>
+      </div>
+      <div class= "col-sm-3 color7">
         <p class="white">HEX #000000</p>
       </div>
-      <div class= "col-md-3 color5">
+      <div class= "col-sm-3 color8">
         <p class="white">HEX #808080</p>
       </div>
-      <div class= "col-md-3 color6">
+      <div class= "col-sm-3 color9">
         <p class="white">HEX #D3D3D3</p>
       </div>
     </div>
@@ -87,13 +96,13 @@
     <div class="left">
     <h1> BUTTONS </h1>
     </div>
-    <button class="btn btn-sm">small button</button>
+    <button class="btn btn-sm delete">small button</button>
     <br>
     <br>
-    <button class="btn btn-md">medium button</button>
+    <button class="btn btn-md new">medium button</button>
     <br>
     <br>
-    <button class="btn btn-lg">large button</button>
+    <button class="btn btn-lg large">large button</button>
     <div class="left">
       <h1> FORMS </h1>
     </div>

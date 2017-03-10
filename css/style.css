@@ -21,6 +21,11 @@ h3 {
 
 li {
   font-family: 'Lato', sans-serif;
+  color: lightgrey;
+}
+
+li:hover {
+  color: white;
 }
 
 td {
@@ -33,8 +38,12 @@ font-weight: bold;
 font-size: 12pt;
 }
 
-.all {
-font: white;
+a.all {
+color: lightgrey;
+}
+
+a.all:hover {
+color: white;
 }
 
 .alert, .alert-success, .alert-info {
@@ -71,27 +80,46 @@ font-size: 8pt;
 .color2 {
   background-color: #F567B2;
 }
+
 .color3 {
+  background-color: #FDDFF2;
+}
+
+.color4 {
   background-color: #04DADA;
 }
-.color4 {
+
+.color5{
+  background-color: #CCFAFA;
+  color: black;
+}
+
+.color6 {
+  background-color: #FFFFFF;
+  border:solid;
+  border-color: black ;
+  border-width: thin;
+  color: black;
+}
+.color7 {
   background-color: black;
 }
-.color5 {
+.color8 {
   background-color: grey;
 }
-.color6 {
+.color9 {
   background-color: lightgrey;
 }
-.color1 , .color2 , .color3, .color4, .color5, .color6 {
+.color1 , .color2 , .color3, .color4, .color5, .color6, .color7, .color8, .color9 {
   padding: 50px 30px 30px 30px;
   margin: 15px 15px 15px 15px;
   border-radius: 5px;
-  color: white;
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
-
+.color1 , .color2 , .color3, .color4, .color7, .color8, .color9 {
+color: white;
+}
 .container {
   padding-top: 20px;
   width: 100%;
@@ -132,6 +160,22 @@ color:#04DADA;
   font-family: 'Lato', sans-serif;
 }
 
+.large {
+  font-family: 'Vidaloka', serif;
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-width: medium;
+}
+
+.large:hover {
+  font-family: 'Vidaloka', serif;
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: medium;
+}
+
 .left {
   margin-left: -33%;
   padding: none;
@@ -147,10 +191,10 @@ color:#04DADA;
 
 .navbar {
 color: white;
-font: white;
 background-color: black;
 border-radius: none;
 }
+
 .navbar-brand {
   font-family: 'Vidaloka', serif;
   font-size: 30pt;

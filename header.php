@@ -37,7 +37,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class ="all"><a href="/index.php">All Contacts</a></li>
+              <li><a href="/index.php" class ="all">All Contacts</a></li>
               <li class = "contact"><a href="/new.php">New Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
