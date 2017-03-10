@@ -38,7 +38,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li class ="all"><a href="/index.php">All Contacts</a></li>
-              <li class = "new"><a href="/new.php">New Contact</a></li>
+              <li class = "contact"><a href="/new.php">New Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -46,4 +46,4 @@
 
       <div class="row">
 
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-lg-12 float">

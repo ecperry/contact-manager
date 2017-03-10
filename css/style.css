@@ -20,6 +20,7 @@ h1, h2 {
 }
 a {
   color: black;
+  font-size: 11pt;
 }
 .navbar{
 color: white;
@@ -48,8 +49,6 @@ border-radius: none;
   margin-top:12px;
 }
 
-.footer {
-}
 @media screen and (min-width : 991px) {
 .btn-delete {
   margin-top:32px;
@@ -79,9 +78,7 @@ color:#04DADA;
 .all {
 font: white;
 }
-.new {
 
-}
 .border {
 border-top: solid;
 border-color: black;
@@ -89,8 +86,140 @@ margin-top: 10px;
 text-align: center;
 }
 
+.border :hover {
+text-decoration: none;
+color: #04DADA;
+}
+
+.black{
+color: black;
+}
+
+
 .withit {
   font-style: italic;
   font-family: 'Vidaloka', serif;
   color: #04DADA;
+}
+
+.color1 {
+  background-color: #F40643;
+}
+.color2 {
+  background-color: #F567B2;
+}
+.color3 {
+  background-color: #04DADA;
+}
+.color4 {
+  background-color: black;
+}
+.color5 {
+  background-color: grey;
+}
+.color6 {
+  background-color: lightgrey;
+}
+.color1 , .color2 , .color3, .color4, .color5, .color6 {
+  padding: 50px 30px 30px 30px;
+  margin: 15px 15px 15px 15px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.float {
+padding-left: 20%;
+width: 80%;
+
+}
+
+.left {
+  margin-left: -33%;
+  padding: none;
+  width: 100%;
+}
+.content {
+margin-left: 10%;
+margin-right: -33%;
+}
+
+.Lato {
+  font-family: 'Lato', sans-serif;
+}
+
+td {
+width: 10%;
+}
+
+.container {
+  width: 100%;
+  overflow: scroll;
+}
+
+a {
+  color: black;
+}
+.table-hover :hover{
+  color: grey;
+  text-decoration: none;
+}
+.table-hover {
+}
+
+th {
+color: grey;
+font-weight: bold;
+font-size: 12pt;
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #CCFAFA;
+    border-color: #04DADA;
+    border-bottom-color: #04DADA;
+    color: lightgrey;
+}
+
+.text-muted  {
+  color: #04DADA;
+}
+a{
+color: black;
+}
+
+.new {
+border-color: #04DADA;
+border-width: medium;
+background-color: #04DADA;
+color: white;
+margin: 15px 0px 35px 0px;
+}
+
+
+.delete{
+border-color: #F40643;
+border-width: medium;
+background-color: white;
+color: #F40643;
+margin: 0px 0px 10px 0px;
+font-family: 'Lato', sans-serif;
+}
+
+.btn-danger .delete :hover {
+  color: white;
+  background-color: #F40643;
+}
+
+button :hover {
+  border-color: #F40643;
+  border-width: thick;
+  color: white;
+  background-color: #F40643;
+}
+.alert, .alert-success, .alert-info {
+  border-color: #FDDFF2;
+  border-width: thick;
+  color: #F567B2;
+  background-color: #FDDFF2;
 }

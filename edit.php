@@ -19,7 +19,7 @@
 </div>
 <?php endif; ?>
 
-<a href="/delete.php?id=<?= $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a>
+<a href="/delete.php?id=<?= $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete delete">Delete Contact</a>
 <h1>Edit Contact</h1>
 
 <form method="POST" action="/update.php">
@@ -139,7 +139,7 @@
   </div>
 </div>
 
-  <button class="btn btn-primary">Save Contact</button>
+  <button class="btn btn-primary new">Save Contact</button>
 </form>
 
 <?php include 'footer.php'; ?>

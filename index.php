@@ -15,23 +15,24 @@
 <?php endif; ?>
 
 <h1>All Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
+<div class= "container">
 <table class=" table table-responsive table-hover ">
   <thead>
-    <th>ID</th>
-    <th>First</th>
-    <th>Last</th>
-    <th>Title</th>
-    <th>Address</th>
-    <th>City</th>
-    <th>State</th>
-    <th>Zip</th>
-    <th>Phone</th>
+    <th class="col-md-1">ID</th>
+    <th class="col-md-1">First</th>
+    <th class="col-md-1">Last</th>
+    <th class="col-md-1">Title</th>
+    <th class="col-md-1">Address</th>
+    <th class="col-md-1">City</th>
+    <th class="col-md-1">State</th>
+    <th class="col-md-1">Zip</th>
+    <th class="col-md-1">Phone</th>
     <th>Notes</th>
   </thead>
   <tbody>
     <?php foreach($contacts as $contact) : ?>
     <tr>
-      <td><a href="/edit.php?id=<?= $contact['id']; ?>"><?= $contact['id']; ?></a></td>
+      <td><a class= "stuff" href="/edit.php?id=<?= $contact['id']; ?>"><?= $contact['id']; ?></a></td>
       <td><a href="/edit.php?id=<?= $contact['id']; ?>"><?= $contact['first']; ?></a></td>
       <td><a href="/edit.php?id=<?= $contact['id']; ?>"><?= $contact['last']; ?></a></td>
       <td><a href="/edit.php?id=<?= $contact['id']; ?>"><?= $contact['title']; ?></a></td>
@@ -45,5 +46,7 @@
     <?php endforeach; ?>
   </tbody>
 </table>
+</div>
+
 
 <?php include 'footer.php'; ?>
