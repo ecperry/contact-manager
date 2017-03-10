@@ -2,8 +2,11 @@ a{
   color: black;
   font-size: 11pt;
 }
+a:hover {
+  color: black;
+}
 
-body, li, h4, h5 {
+body {
   font-family: 'Lato', sans-serif;
 }
 
@@ -42,12 +45,15 @@ h5 {
 
 li {
   font-family: 'Lato', sans-serif;
-  color: lightgrey;
+  color: grey ;
+  font-size: 20px;
+}
+ol > li {
+  font-family: 'Vidaloka', serif;
+  color: black;
+  font-size: 20px;
 }
 
-li:hover {
-  color: white;
-}
 
 td {
 width: 10%;
@@ -158,6 +164,9 @@ margin-left: 10%;
 margin-right: -33%;
 }
 
+.credits {
+color: #04DADA;
+}
 .delete{
 border-color: #F40643;
 border-width: medium;
@@ -177,6 +186,12 @@ color: white;
 .float {
 padding-left: 20%;
 width: 80%;
+}
+
+/*http://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow */
+.form-control:focus {
+  border-color: #04DADA;
+  box-shadow: inset 0 1px 1px rgba(4, 218, 218, 0.075), 0 0 8px rgba(4, 218, 218, 0.075);
 }
 
 .it {
@@ -237,7 +252,6 @@ border-radius: none;
 .navbar-brand {
   font-family: 'Vidaloka', serif;
   font-size: 30pt;
-  color: black;
 }
 
 .new {
@@ -275,6 +289,7 @@ font-style: italic;
   color: #04DADA;
 }
 
+/* bootstrap-specific style*/
 textarea.form-control {
   resize: none;
   height: 150px;

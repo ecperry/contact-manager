@@ -1,4 +1,6 @@
 <?php
+//modified from Seth Wright's code: https://github.com/asethwright/php-task-app/blob/master/create.php
+//this page adds the input fields to the database and assigns it the next highest id from the previous
 include 'database.php';
 
 $stmt = $db->prepare("INSERT INTO contacts

@@ -1,4 +1,7 @@
 <?php
+//modified from Seth Wright's code: https://github.com/asethwright/php-task-app/blob/master/index.php
+//this page creates the html template to show all current contact information and display changes
+//I'm using php to fetch the values from my SQL database and display them in a table
   include 'header.php';
   $sort = array_key_exists('sort', $_GET) ? $_GET['sort'] : null;
   if ($sort !== null) {

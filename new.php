@@ -1,4 +1,7 @@
 <?php
+//code modified from Seth Writght's https://github.com/asethwright/php-task-app/blob/master/new.php
+//this page creates a new contact by saving input fields from the user and pushing them to the database
+//the changes are then reflected in the index page list of all contacts
  include 'header.php';
 ?>
 

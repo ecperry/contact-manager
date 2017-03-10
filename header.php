@@ -1,4 +1,6 @@
 <?php
+//modified from Seth Wright's code: https://github.com/asethwright/php-task-app/blob/master/header.php
+//this page acts as a header for all pages within the app and contains the navbar
   include 'database.php';
 ?>
 <!DOCTYPE html>

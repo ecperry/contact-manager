@@ -1,4 +1,8 @@
-      </div>
+<?php
+//modified from Seth Wright's code: https://github.com/asethwright/php-task-app/blob/master/footer.php
+// this page serves as the footer template for all pages and contains links to style guide, credits, my github and my portfolio
+?>
+</div>
 
     </div>
     <div class = "border">
@@ -6,8 +10,8 @@
       <br>
       <a href="/style.php"><span class="black"> | </span>Style Guide <span class="black"> | </span></a>
       <a href="/credits.php"> Credits <span class="black"> | </span></a>
-      <a href="https://www.emilythecopywriter.com/"> Portfolio <span class="black"> | </span> </a>
-      <a href="https://www.github.com/ecperry/"> Github <span class="black"> | </span> </a></p>
+      <a href="https://www.emilythecopywriter.com/" target="_blank"> Portfolio <span class="black"> | </span> </a>
+      <a href="https://www.github.com/ecperry/" target="_blank"> Github <span class="black"> | </span> </a></p>
       <img width=60px src="/logo.png">
       <br>
     </div>

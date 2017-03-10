@@ -1,4 +1,8 @@
 <?php
+//modified from Seth Wright's code: https://github.com/asethwright/php-task-app/blob/master/edit.php
+//state dropdown added
+//this page is filling a form with the existing database values of an id for the given fields
+
   include 'header.php';
   $id = $_GET['id'];
   $stmt = $db->prepare('SELECT * from contacts WHERE id = :id LIMIT 1');
