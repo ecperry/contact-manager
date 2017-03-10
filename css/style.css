@@ -7,13 +7,6 @@ body, li, h4, h5 {
   font-family: 'Lato', sans-serif;
 }
 
-button :hover {
-  border-color: #F40643;
-  border-width: thick;
-  color: white;
-  background-color: #F40643;
-}
-
 h1, h2 {
   font-family: 'Vidaloka', serif;
   font-size: 30px;
@@ -67,13 +60,9 @@ text-decoration: none;
 color: #04DADA;
 }
 
-.btn-danger .delete :hover {
-  color: white;
-  background-color: #F40643;
-}
-
-.btn-delete {
-  margin-top:12px;
+.bottom {
+color: #F567B2;
+font-size: 8pt;
 }
 
 .color1 {
@@ -123,6 +112,13 @@ margin: 0px 0px 10px 0px;
 font-family: 'Lato', sans-serif;
 }
 
+.delete:hover,  .delete:active, .delete:focus{
+border-color: #F40643;
+border-width: medium;
+background-color: #F40643;
+color: white;
+}
+
 .float {
 padding-left: 20%;
 width: 80%;
@@ -167,6 +163,12 @@ border-width: medium;
 background-color: #04DADA;
 color: white;
 margin: 15px 0px 35px 0px;
+}
+.new:hover, .new:active, new:focus{
+ border-color: #04DADA;
+ border-width: medium;
+ color: #04DADA;
+ background-color: white;
 }
 
 .slash{

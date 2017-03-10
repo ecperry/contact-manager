@@ -8,6 +8,8 @@
       <a href="/credits.php"> Credits <span class="black"> | </span></a>
       <a href="https://www.emilythecopywriter.com/"> Portfolio <span class="black"> | </span> </a>
       <a href="https://www.github.com/ecperry/"> Github <span class="black"> | </span> </a></p>
+      <img width=60px src="/logo.png">
+      <br>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>

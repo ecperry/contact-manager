@@ -120,7 +120,7 @@
   </div>
 </div>
 
-<button class="btn btn-primary new">Create New Contact</button>
+<button class="btn new">Create New Contact</button>
 </form>
 
 <?php
