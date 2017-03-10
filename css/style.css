@@ -7,16 +7,37 @@ body, li, h4, h5 {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2 {
+h1 {
+  font-family: 'Vidaloka', serif;
+  font-size: 35px;
+  color: black;
+}
+
+h2 {
   font-family: 'Vidaloka', serif;
   font-size: 30px;
   color: black;
 }
 
+
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: #F567B2;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  color: gray;
+  font-size: 22px;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  color: #04DADA;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 li {
@@ -36,6 +57,12 @@ th {
 color: grey;
 font-weight: bold;
 font-size: 12pt;
+}
+
+p {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
 }
 
 a.all {
@@ -182,6 +209,18 @@ color:#04DADA;
   width: 100%;
 }
 
+.lead {
+  color: black;
+  font-family: 'Vidaloka', sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.light {
+  color: grey;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+}
 @media screen and (min-width : 991px) {
 .btn-delete {
   margin-top:32px;

@@ -46,7 +46,7 @@
     <div class="content">
     <div class="row">
     <div class= "col-md-12">
-    <h1> Vidaloka </h1>
+    <h1> VIDALOKA </h1>
     <h2> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
       <br>
         a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -55,7 +55,7 @@
         <br>
           <br>
     </h2>
-    <h1 class= "Lato"> Lato </h1>
+    <h1 class= "Lato"> LATO</h1>
     <h2 class = "Lato"> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
       <br>
       a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -68,14 +68,20 @@
     <div class="left">
     <h1> TEXT </h1>
     </div>
-    <h1> Header 1 </h1>
+    <h1> HEADER 1 </h1>
     <h2> Header 2 </h2>
+
     <h3> Header 3 </h3>
+    <br>
     <h4> Header 4 </h4>
+    <br>
     <h5> Header 5 </h5>
     <br>
-    <p> p </p>
     <p class="lead"> p.lead </p>
+    <p class="lead">People, even more than things, have to be restored, renewed, revived,
+    reclaimed, and redeemed; never throw out anyone.
+  </p>
+    <p> p</p>
     <p>
       WithIt is a contact manager for smart, savvy, stylish millenial women.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -83,8 +89,9 @@
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.
     </p>
+    <br>
     <p class="light"> p.light </p>
-    <p>
+    <p class="light">
       Get WithIt to keep up with all the people you meet and friends you make.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

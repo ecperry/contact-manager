@@ -17,8 +17,8 @@
 <br>
 <br>
 <br>
-<h2 style="text-align:center">People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone.</h2>
-<h4 style="text-align:center; color: #F567B2"> -Audrey Hepburn</h4>
+<p class= "lead" style="text-align:center">People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone.</p>
+<h3 style="text-align:center"> -Audrey Hepburn</h3>
 <br>
 <br>
 <br>
